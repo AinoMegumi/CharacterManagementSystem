@@ -1,0 +1,2 @@
+# CharacterManagementSystem
+自分で作ったキャラクターを管理するシステム
