@@ -1,0 +1,36 @@
+{
+  "name": "charactermanagementsystem",
+  "version": "2.0.0",
+  "description": "キャラクター管理システム",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write --end-of-line crlf .",
+    "eslint": "eslint --cache --ext .js .",
+    "eslint:fix": "eslint --cache --ext .js . --fix",
+    "coverage": "c8 npm test",
+    "ci": "run-p eslint coverage",
+    "test": "mocha --recursive ./tests/",
+    "start": "node ./server.js"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^10.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@json-spec/core": "^0.1.12",
+    "mersennetwister": "^0.2.3",
+    "mysql": "^2.18.1"
+  }
+}

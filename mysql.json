@@ -1,0 +1,6 @@
+{
+    "host": "localhost",
+    "database": "cmsys",
+    "user": "{ユーザー名をここに入力}",
+    "password": "{パスワードをここに入力}"
+}
